@@ -1,18 +1,18 @@
-# To compile the project, please run :
+# Some cipher methods
+
+(school project) Implementation of Cesar cipher, Vigenere cipher and Scytale cipher.
+
+## Compilation :
 ```shell
 make
 ```
 
-# To generate the documentation, please run :
+## Documentation :
 ```shell
 make doc
 ```
-or
-```shell
-doxygen Doxyfile
-```
 
-# To run the project, please run :
+## Run :
 ```shell
 ./bin/main
 ```
@@ -22,7 +22,7 @@ You have few arguments :\
   -d : (for Cesar code) the gap you want\
   -k : (for Vigenere code) the key for the encryption of the message
 
-There are few examples to run the project with arguments :
+## Examples
 
 ```shell
 ./bin/main -c cesar -m "The message to encrypt" -d 5
